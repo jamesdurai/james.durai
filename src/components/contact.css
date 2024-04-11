@@ -1,0 +1,106 @@
+.contact .info {
+    width: 100%;
+    background: #EAEFF2;
+  }
+  
+  
+  
+  .contact .info i {
+    font-size: 20px;
+    color: #0563bb;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: #eef7ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .contact .info h4 {
+    padding: 0 0 0 60px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #45505b;
+  }
+  
+  .contact .info p {
+    padding: 0 0 0 60px;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #728394;
+  }
+  
+  .contact .info .email,
+  .contact .info .phone,
+  .contact .info .resume_download{
+    margin-top: 40px;
+  }
+  
+  .contact .info .email:hover i,
+  .contact .info .address:hover i,
+  .contact .info .phone:hover i,
+  .contact .info .resume_download i {
+    background: #0563bb;
+    color: #fff;
+  }
+  
+  .resume_download {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .resume_download button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin-left: 50px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .resume_download button:hover {
+    background-color: #45a049;
+  }
+  
+  .resume_download i {
+    font-size: 24px;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .resume_download h4 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  
+  
+  
+  @media(min-width:320px){
+    .contact-row{
+    text-align: center;
+    
+  }
+  }
+  
+  @media(min-width:720px){
+    .contact-row{
+      text-align: center;
+    }
+  }
+  
+  @media(min-width:1000px){
+    .contact-row{
+      text-align: center;
+      padding-left: 500px;
+    }
+  }
+  
+  
