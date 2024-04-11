@@ -18,8 +18,14 @@ const Footer = () => {
             <Link to="/">
               <MdHomeFilled />
             </Link>
-            <a href="https://www.facebook.com/james.cena.3954" class="facebook">
-              <i class="bi bi-facebook"></i>
+            <a href="https://www.naukri.com/mnjuser/profile" class="Nakuri">
+            <i class="bi bi-browser-chrome"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/james-durai-8477bb2bb/"
+              class="linkedin"
+            >
+              <i class="bi bi-linkedin"></i>
             </a>
             <a href="https://www.instagram.com/i___am__jd/" class="instagram">
               <i class="bi bi-instagram"></i>
@@ -27,12 +33,7 @@ const Footer = () => {
             <a href="https://github.com/jamesdurai" class="GitHub">
               <i class="bi bi-github"></i>
             </a>
-            <a
-              href="https://www.linkedin.com/in/james-durai-0a57301b6/"
-              class="linkedin"
-            >
-              <i class="bi bi-linkedin"></i>
-            </a>
+            
           </div>
           <div class="copyright">
             &copy; Copyright{" "}
